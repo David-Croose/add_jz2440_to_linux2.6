@@ -1,0 +1,9 @@
+#ifndef __QIN2440_TIMEX_H_
+#define __QIN2440_TIMEX_H_
+
+/**
+ * HZ = 100, CLOCK_TICK_RATE = 25000, LATCH = CLOCK_TICK_RATE / HZ = 250
+ */
+#define CLOCK_TICK_RATE    (50000000 / 8 / 250)
+
+#endif
